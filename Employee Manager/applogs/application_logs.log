@@ -1,0 +1,119 @@
+2025-08-16 15:06:01 [main] INFO  employeemanager.controller.EmployeeController - Updating employee: 005
+2025-08-16 15:06:01 [main] INFO  employeemanager.controller.EmployeeController - Employee updated successfully: 005
+2025-08-16 15:17:20 [main] INFO  employeemanager.controller.EmployeeController - Fetching employee details for ID: 10000
+2025-08-16 15:17:20 [main] INFO  employeemanager.controller.EmployeeController - Employee fetched successfully for ID: 10000
+2025-08-16 15:17:21 [main] ERROR employeemanager.controller.EmployeeController - Employee not found with id:
+employeemanager.customexception.EmployeeNotFoundException: Employee with ID 10000 not found.
+	at employeemanager.dao.EmployeeDAO.fetchEmployeeById(EmployeeDAO.java:90) ~[bin/:?]
+	at employeemanager.service.EmployeeDBService.getEmployeeDetailByID(EmployeeDBService.java:54) ~[bin/:?]
+	at employeemanager.controller.EmployeeController.getEmployeeDetailsByIdFromDB(EmployeeController.java:220) [bin/:?]
+	at employeemanager.app.EmployeeManagerApp.main(EmployeeManagerApp.java:101) [bin/:?]
+2025-08-16 15:22:37 [main] INFO  employeemanager.controller.EmployeeController - Fetching employee details for ID: 1000
+2025-08-16 15:22:37 [main] INFO  employeemanager.controller.EmployeeController - Employee fetched successfully for ID: 1000
+2025-08-16 15:22:38 [main] ERROR employeemanager.controller.EmployeeController - Employee not found with id: 1000
+employeemanager.customexception.EmployeeNotFoundException: Employee with ID 1000 not found.
+	at employeemanager.dao.EmployeeDAO.fetchEmployeeById(EmployeeDAO.java:90) ~[bin/:?]
+	at employeemanager.service.EmployeeDBService.getEmployeeDetailByID(EmployeeDBService.java:54) ~[bin/:?]
+	at employeemanager.controller.EmployeeController.getEmployeeDetailsByIdFromDB(EmployeeController.java:220) [bin/:?]
+	at employeemanager.app.EmployeeManagerApp.main(EmployeeManagerApp.java:101) [bin/:?]
+2025-08-16 15:25:33 [main] INFO  employeemanager.controller.EmployeeController - Fetching employee details for ID: 1000
+2025-08-16 15:25:33 [main] INFO  employeemanager.controller.EmployeeController - Employee fetched successfully for ID: 1000
+2025-08-16 15:25:33 [main] ERROR employeemanager.controller.EmployeeController - Employee not found with id: 1000
+employeemanager.customexception.EmployeeNotFoundException: Employee with ID 1000 not found.
+	at employeemanager.dao.EmployeeDAO.fetchEmployeeById(EmployeeDAO.java:90) ~[bin/:?]
+	at employeemanager.service.EmployeeDBService.getEmployeeDetailByID(EmployeeDBService.java:54) ~[bin/:?]
+	at employeemanager.controller.EmployeeController.getEmployeeDetailsByIdFromDB(EmployeeController.java:220) [bin/:?]
+	at employeemanager.app.EmployeeManagerApp.main(EmployeeManagerApp.java:101) [bin/:?]
+2025-08-16 15:27:50 [main] INFO  employeemanager.controller.EmployeeController - Fetching employee details for ID: 0000
+2025-08-16 15:27:50 [main] INFO  employeemanager.controller.EmployeeController - Employee fetched successfully for ID: 0000
+2025-08-16 15:27:51 [main] ERROR employeemanager.controller.EmployeeController - Employee not found with id: 0000
+employeemanager.customexception.EmployeeNotFoundException: Employee with ID 0000 not found.
+	at employeemanager.dao.EmployeeDAO.fetchEmployeeById(EmployeeDAO.java:90) ~[bin/:?]
+	at employeemanager.service.EmployeeDBService.getEmployeeDetailByID(EmployeeDBService.java:54) ~[bin/:?]
+	at employeemanager.controller.EmployeeController.getEmployeeDetailsByIdFromDB(EmployeeController.java:220) [bin/:?]
+	at employeemanager.app.EmployeeManagerApp.main(EmployeeManagerApp.java:101) [bin/:?]
+2025-08-16 15:30:16 [main] INFO  employeemanager.controller.EmployeeController - Fetching employee details for ID: 00
+2025-08-16 15:30:16 [main] INFO  employeemanager.controller.EmployeeController - Employee fetched successfully for ID: 00
+2025-08-16 15:30:17 [main] ERROR employeemanager.controller.EmployeeController - Employee not found with id: 00
+employeemanager.customexception.EmployeeNotFoundException: Employee with ID 00 not found.
+	at employeemanager.dao.EmployeeDAO.fetchEmployeeById(EmployeeDAO.java:90) ~[bin/:?]
+	at employeemanager.service.EmployeeDBService.getEmployeeDetailByID(EmployeeDBService.java:54) ~[bin/:?]
+	at employeemanager.controller.EmployeeController.getEmployeeDetailsByIdFromDB(EmployeeController.java:220) [bin/:?]
+	at employeemanager.app.EmployeeManagerApp.main(EmployeeManagerApp.java:101) [bin/:?]
+2025-08-16 15:57:10 [main] INFO  employeemanager.controller.EmployeeController - Fetching employee details for ID: 00
+2025-08-16 15:57:14 [main] INFO  employeemanager.controller.EmployeeController - Employee fetched successfully for ID: 00
+2025-08-16 15:59:19 [main] ERROR employeemanager.controller.EmployeeController - Employee not found with id: 00
+employeemanager.customexception.EmployeeNotFoundException: Employee with ID 00 not found.
+	at employeemanager.dao.EmployeeDAO.fetchEmployeeById(EmployeeDAO.java:90) ~[bin/:?]
+	at employeemanager.service.EmployeeDBService.getEmployeeDetailByID(EmployeeDBService.java:54) ~[bin/:?]
+	at employeemanager.controller.EmployeeController.getEmployeeDetailsByIdFromDB(EmployeeController.java:220) [bin/:?]
+	at employeemanager.app.EmployeeManagerApp.main(EmployeeManagerApp.java:101) [bin/:?]
+2025-08-16 16:01:15 [main] INFO  employeemanager.controller.EmployeeController - Fetching employee details for ID: 1000
+2025-08-16 16:01:15 [main] INFO  employeemanager.controller.EmployeeController - Employee fetched successfully for ID: 1000
+2025-08-16 16:01:16 [main] ERROR employeemanager.controller.EmployeeController - Employee not found with id: 1000
+employeemanager.customexception.EmployeeNotFoundException: Employee with ID 1000 not found.
+	at employeemanager.dao.EmployeeDAO.fetchEmployeeById(EmployeeDAO.java:90) ~[bin/:?]
+	at employeemanager.service.EmployeeDBService.getEmployeeDetailByID(EmployeeDBService.java:54) ~[bin/:?]
+	at employeemanager.controller.EmployeeController.getEmployeeDetailsByIdFromDB(EmployeeController.java:220) [bin/:?]
+	at employeemanager.app.EmployeeManagerApp.main(EmployeeManagerApp.java:101) [bin/:?]
+2025-08-16 16:30:25 [main] INFO  employeemanager.controller.EmployeeController - Fetching employee details for ID: 0
+2025-08-16 16:30:25 [main] INFO  employeemanager.controller.EmployeeController - Employee fetched successfully for ID: 0
+2025-08-16 16:30:26 [main] ERROR employeemanager.controller.EmployeeController - Employee not found with id: 0
+employeemanager.customexception.EmployeeNotFoundException: Employee with ID 0 not found.
+	at employeemanager.dao.EmployeeDAO.fetchEmployeeById(EmployeeDAO.java:90) ~[bin/:?]
+	at employeemanager.service.EmployeeDBService.getEmployeeDetailByID(EmployeeDBService.java:54) ~[bin/:?]
+	at employeemanager.controller.EmployeeController.getEmployeeDetailsByIdFromDB(EmployeeController.java:220) [bin/:?]
+	at employeemanager.app.EmployeeManagerApp.main(EmployeeManagerApp.java:101) [bin/:?]
+2025-08-16 16:35:37 [main] INFO  employeemanager.controller.EmployeeController - Fetching employee details for ID: 0
+2025-08-16 16:35:37 [main] INFO  employeemanager.controller.EmployeeController - Employee fetched successfully for ID: 0
+2025-08-16 16:35:38 [main] ERROR employeemanager.controller.EmployeeController - Employee not found with id: 0
+employeemanager.customexception.EmployeeNotFoundException: Employee with ID 0 not found.
+	at employeemanager.dao.EmployeeDAO.fetchEmployeeById(EmployeeDAO.java:90) ~[bin/:?]
+	at employeemanager.service.EmployeeDBService.getEmployeeDetailByID(EmployeeDBService.java:54) ~[bin/:?]
+	at employeemanager.controller.EmployeeController.getEmployeeDetailsByIdFromDB(EmployeeController.java:220) [bin/:?]
+	at employeemanager.app.EmployeeManagerApp.main(EmployeeManagerApp.java:101) [bin/:?]
+2025-08-16 23:15:12 [main] INFO  employeemanager.controller.EmployeeController - Fetching all employees from DB
+2025-08-16 23:15:13 [main] INFO  employeemanager.service.EmployeeDBService - Fetched 14 employees from database
+2025-08-16 23:15:13 [main] INFO  employeemanager.controller.EmployeeController - Fetched 14 employees
+2025-08-16 23:16:12 [main] INFO  employeemanager.controller.EmployeeController - Fetching all employees from DB
+2025-08-16 23:16:13 [main] INFO  employeemanager.service.EmployeeDBService - Fetched 14 employees from database
+2025-08-16 23:16:13 [main] INFO  employeemanager.controller.EmployeeController - Fetched 14 employees
+2025-08-16 23:26:08 [main] INFO  employeemanager.app.EmployeeManagerApp - Starting Employee Manager Application...
+2025-08-16 23:26:20 [main] INFO  employeemanager.controller.EmployeeController - Fetching all employees from DB
+2025-08-16 23:26:20 [main] INFO  employeemanager.util.DBUtil - Database connection established successfully to URL: jdbc:mysql://localhost:3306/empdb
+2025-08-16 23:26:20 [main] INFO  employeemanager.dao.EmployeeDAO - Fetched 14 employees from database
+2025-08-16 23:26:20 [main] INFO  employeemanager.service.EmployeeDBService - Fetched 14 employees from database
+2025-08-16 23:26:20 [main] INFO  employeemanager.controller.EmployeeController - Fetched 14 employees
+2025-08-16 23:27:56 [main] INFO  employeemanager.app.EmployeeManagerApp - Starting Employee Manager Application...
+2025-08-16 23:28:02 [main] INFO  employeemanager.controller.EmployeeController - Fetching all employees from DB
+2025-08-16 23:28:03 [main] INFO  employeemanager.util.DBUtil - Database connection established successfully to URL: jdbc:mysql://localhost:3306/empdb
+2025-08-16 23:28:03 [main] INFO  employeemanager.dao.EmployeeDAO - Fetched 14 employees from database
+2025-08-16 23:28:03 [main] INFO  employeemanager.service.EmployeeDBService - Fetched 14 employees from database
+2025-08-16 23:28:03 [main] INFO  employeemanager.controller.EmployeeController - Fetched 14 employees
+2025-08-17 20:59:33 [main] INFO  employeemanager.app.EmployeeManagerApp - Starting Employee Manager Application...
+2025-08-17 20:59:36 [main] INFO  employeemanager.controller.EmployeeController - Fetching all employees from DB
+2025-08-17 20:59:36 [main] TRACE employeemanager.service.EmployeeDBService - Entering getAllEmployeeDetailsFromDBService
+2025-08-17 20:59:36 [main] TRACE employeemanager.dao.EmployeeDAO - Entering fetchAllEmployees
+2025-08-17 20:59:36 [main] TRACE employeemanager.util.DBUtil - Attempting to establish database connection to URL: jdbc:mysql://localhost:3306/empdb
+2025-08-17 20:59:37 [main] INFO  employeemanager.util.DBUtil - Database connection established successfully to URL: jdbc:mysql://localhost:3306/empdb
+2025-08-17 20:59:37 [main] INFO  employeemanager.dao.EmployeeDAO - Fetched 14 employees from database
+2025-08-17 20:59:37 [main] TRACE employeemanager.dao.EmployeeDAO - Exiting fetchAllEmployees
+2025-08-17 20:59:37 [main] INFO  employeemanager.service.EmployeeDBService - Fetched 14 employees from database
+2025-08-17 20:59:37 [main] TRACE employeemanager.service.EmployeeDBService - Exiting getAllEmployeeDetailsFromDBService
+2025-08-17 20:59:37 [main] INFO  employeemanager.controller.EmployeeController - Fetched 14 employees
+2025-08-17 21:02:27 [main] INFO  employeemanager.app.EmployeeManagerApp - Starting Employee Manager Application...
+2025-08-17 21:02:40 [main] INFO  employeemanager.controller.EmployeeController - Fetching employee details for ID: 0
+2025-08-17 21:02:40 [main] TRACE employeemanager.service.EmployeeDBService - Entering getEmployeeDetailByID with ID: 0
+2025-08-17 21:02:40 [main] TRACE employeemanager.dao.EmployeeDAO - Entering fetchEmployeeById with ID: 0
+2025-08-17 21:02:40 [main] TRACE employeemanager.util.DBUtil - Attempting to establish database connection to URL: jdbc:mysql://localhost:3306/empdb
+2025-08-17 21:02:40 [main] INFO  employeemanager.util.DBUtil - Database connection established successfully to URL: jdbc:mysql://localhost:3306/empdb
+2025-08-17 21:02:40 [main] WARN  employeemanager.dao.EmployeeDAO - Employee with ID 0 not found
+2025-08-17 21:02:40 [main] TRACE employeemanager.dao.EmployeeDAO - Exiting fetchEmployeeById with ID: 0
+2025-08-17 21:02:40 [main] WARN  employeemanager.service.EmployeeDBService - Employee with ID 0 not found
+2025-08-17 21:02:40 [main] TRACE employeemanager.service.EmployeeDBService - Exiting getEmployeeDetailByID with ID: 0
+2025-08-17 21:02:40 [main] ERROR employeemanager.controller.EmployeeController - Employee not found with id: 0
+employeemanager.customexception.EmployeeNotFoundException: Employee with ID 0 not found.
+	at employeemanager.dao.EmployeeDAO.fetchEmployeeById(EmployeeDAO.java:107) ~[bin/:?]
+	at employeemanager.service.EmployeeDBService.getEmployeeDetailByID(EmployeeDBService.java:62) ~[bin/:?]
+	at employeemanager.controller.EmployeeController.getEmployeeDetailsByIdFromDB(EmployeeController.java:225) [bin/:?]
+	at employeemanager.app.EmployeeManagerApp.main(EmployeeManagerApp.java:105) [bin/:?]
